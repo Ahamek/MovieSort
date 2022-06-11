@@ -16,7 +16,7 @@ public class MovieDatabase {
         movies.add(new Movie("Spider Man", "Raimi Sam", 2002, 6.7));
         movies.add(new Movie("Transformers", "Bay Michael", 2007, 7.3));
         movies.add(new Movie("Alien", "Scott Ridley", 1979, 7.8));
-//        movies.add(new Movie("Home Alone", "Columbus Chris", 1979, 7.1));
+        movies.add(new Movie("Home Alone", "Columbus Chris", 1979, 7.1));
         return movies;
     }
 
