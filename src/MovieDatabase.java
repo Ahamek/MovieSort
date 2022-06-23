@@ -3,7 +3,7 @@ import java.util.*;
 public class MovieDatabase {
     public static void main(String[] args) {
         List<Movie> moviesList = createMoviesList();
-        Comparator<Movie> sortAlgorithm = getSortAlgorithm(); //TODO
+        Comparator<Movie> sortAlgorithm = getSortAlgorithm();
         moviesList.sort(sortAlgorithm);
         print(moviesList);
     }
@@ -39,7 +39,7 @@ public class MovieDatabase {
     }
 
     private static void print(List<Movie> movies) {
-        System.out.println("Lista filmów:");
+        System.out.println("Lista filmÃ³w:");
         movies.forEach(System.out::println);
     }
 
